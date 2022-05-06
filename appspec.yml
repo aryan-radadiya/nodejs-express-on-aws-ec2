@@ -5,7 +5,7 @@ files:
     destination: /home/ec-2user/express-app
 hooks:
   ApplicationStop:
-    - location: scripts/application_Stop.sh
+    - location: scripts/application_stop.sh
       timeout: 300
       runas: ec2-user
   BeforeInstall:
